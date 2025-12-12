@@ -1,1 +1,1 @@
--e ../../repo_ayed_estudiantes_fiuner # NOTE: No modificar esta línea. "-e" indica una instalación en modo editable.
+-e ../../repoayedfiuner # NOTE: No modificar esta línea. "-e" indica una instalación en modo editable.
