@@ -1,1 +1,1 @@
--e ../../repoayedfiuner # NOTE: No modificar esta línea. "-e" indica una instalación en modo editable.
+-e ../../biblioteca-ayed-fiuner # NOTE: No modificar esta línea. "-e" indica una instalación en modo editable.

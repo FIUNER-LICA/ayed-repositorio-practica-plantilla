@@ -1,5 +1,5 @@
-from repoayedfiuner.algoritmos.burbuja import ordenamiento_burbuja
-from repoayedfiuner.estructuras.circulo import Circulo
+from ayedfiuner.algoritmos.burbuja import ordenamiento_burbuja
+from ayedfiuner.estructuras.circulo import Circulo
 
 
 # Ejemplo de uso del algoritmo de ordenamiento burbuja
