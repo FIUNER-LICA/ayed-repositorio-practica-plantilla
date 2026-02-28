@@ -1,5 +1,7 @@
 from ayedfiuner.algoritmos.burbuja import ordenamiento_burbuja
 from ayedfiuner.estructuras.circulo import Circulo
+from ayedfiuner.estructuras.punto import Punto
+from ayedfiuner.estructuras.poligono import Poligono
 
 
 # Ejemplo de uso del algoritmo de ordenamiento burbuja
@@ -17,3 +19,12 @@ print("Radio del círculo de radio 5:", circulo5.get_radio())
 
 print("Área del círculo de radio 1:", circulo1.area())
 print("Área del círculo de radio 5:", circulo5.area())
+
+# Ejemplo de uso de Polígono (un TAD que dentro utiliza otro TAD)
+p1 = Punto(1, 1)
+p2 = Punto(2, 0)
+p3 = Punto(1, 2)
+
+un_poligono = Poligono([p1, p2, p3])
+
+print(un_poligono)

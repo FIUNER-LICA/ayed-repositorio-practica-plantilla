@@ -1,5 +1,5 @@
 import unittest
-from src.ayedfiuner.algoritmos.burbuja import ordenamiento_burbuja
+from ayedfiuner.algoritmos.burbuja import ordenamiento_burbuja
 
 class TestOrdenamientoBurbuja(unittest.TestCase):
     def test_lista_vacia(self):

@@ -1,5 +1,5 @@
 import unittest
-from src.ayedfiuner.estructuras.circulo import Circulo
+from ayedfiuner.estructuras.circulo import Circulo
 
 class TestCiculo(unittest.TestCase):
     def test_area(self):
