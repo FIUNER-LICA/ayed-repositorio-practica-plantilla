@@ -4,7 +4,7 @@ Repositorio inicial para las clases de práctica de Algoritmos y Estructuras de 
 
 Este repositorio cuenta con una estructura de directorios y módulos que permiten contar con código reutilizable de forma local (todo desde la misma computadora) entre diferentes proyectos de código. Así, por ejemplo, si creas una Lista para un proyecto la misma también puede ser reutilizada fácilmente en otro proyecto sin tener que "copiar y pegar" manualmente.
 
-Para lograr esto último, se provee de un directorio "bib_ayed_fiuner" que funciona como una biblioteca de código reutilizable local.
+Para lograr esto último, se provee de un directorio "biblioteca_ayed_fiuner" que funciona como una biblioteca de código reutilizable local.
 
 A continuación se explican los pasos para utilizar y extender los Algoritmos y Estructuras de Datos reutilizables mediante dicha biblioteca local.
 
@@ -17,7 +17,7 @@ A continuación se explican los pasos para utilizar y extender los Algoritmos y 
 3 - En VSCode, abre la carpeta del proyecto en que trabajarás, por ejemplo, "/TrabajoPractico_1/proyecto_1/". Verás algo como:
 ![Árbol de proyecto](img/image.png).
 
-4 - Crea un entorno virtual e instala las dependencias necesarias. Asegúrate de añadir la dependencia de la biblioteca local en el archivo "/TrabajoPractico_1/proyecto_1/deps/requirements.txt", es decir, "-e ../../biblioteca-ayed-fiuner". El "-e" indica que la instalación de este módulo se realice en modo editable a fin de poder modificar la biblioteca y que los cambios en ella tengan impacto directo en el proyecto que la utiliza. Los "../../" indican subir dos niveles en el árbol de directorios para encontrar el directorio donde está la biblioteca local.
+4 - Crea un entorno virtual e instala las dependencias necesarias. Asegúrate de añadir la dependencia de la biblioteca local en el archivo "/TrabajoPractico_1/proyecto_1/deps/requirements.txt", es decir, '-e "../../biblioteca_ayed_fiuner"'. El "-e" indica que la instalación de este módulo se realice en modo editable a fin de poder modificar la biblioteca y que los cambios en ella tengan impacto directo en el proyecto que la utiliza. Los "../../" indican subir dos niveles en el árbol de directorios para encontrar el directorio donde está la biblioteca local.
 
 ```
 pip install -r .\deps\requirements.txt
