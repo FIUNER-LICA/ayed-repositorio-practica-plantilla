@@ -27,11 +27,11 @@ pip install -r .\deps\requirements.txt
 
 5.1 - El archivo "/TrabajoPractico_1/proyecto_1/main_ejemplo.py" contiene un ejemplo concreto de cómo realizar esto. Verás dos líneas de código en la parte superior, una para importar un algoritmo de ordenamiento y otra para importar una estructrua de datos.
 
-6 - Si quieres añadri un nuevo algoritmo, debes ingresar al directorio "/biblioteca-ayed-fiuner/src/ayedfiuner/algoritmos/" de la biblioteca y añadirlo. Por ejemplo, si deseas implementar el algoritmo de ordenamiento rápido podrías crear el archivo "/biblioteca-ayed-fiuner/src/ayedfiuner/algoritmos/quicksort.py" y dentro implementar el algoritmo "def ordenamiento_rapido(lis)".
+6 - Si quieres añadir un nuevo algoritmo, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/" de la biblioteca y añadirlo. Por ejemplo, si deseas implementar el algoritmo de ordenamiento rápido podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/quicksort.py" y dentro implementar el algoritmo "def ordenamiento_rapido(lis)".
 
-7 - Si quieres añadri una nueva estructura de datos, debes ingresar al directorio "/biblioteca-ayed-fiuner/src/ayedfiuner/estructuras/" de la biblioteca y añadirla. Por ejemplo, si deseas implementar el TAD montículo podrías crear el archivo "/biblioteca-ayed-fiuner/src/ayedfiuner/estructuras/monticulo.py" y dentro implementar el TAD "class Monticulo".
+7 - Si quieres añadir una nueva estructura de datos, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/" de la biblioteca y añadirla. Por ejemplo, si deseas implementar el TAD montículo podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/monticulo.py" y dentro implementar el TAD "class Monticulo".
 
-8 - Una vez que realices las implementaciones de algoritmo y estructruas, estás estarán disponibles a través de las importaciones que toman como raiz "ayedfiuner". Por ejemplo, importar el algoritmo de ordenamiento rápido indicado como ejemplo ser haría con el código "from ayedfiuner.algoritmos.quicksort import ordenamiento_rapido".
+8 - Una vez que realices las implementaciones de algoritmo y estructruas, estas estarán disponibles a través de las importaciones que toman como raiz "ayedfiuner". Por ejemplo, importar el algoritmo de ordenamiento rápido indicado como ejemplo ser haría con el código "from ayedfiuner.algoritmos.quicksort import ordenamiento_rapido".
 
 ## Integrantes del grupo:
     - Apellido y Nombre del primer integrante
