@@ -10,28 +10,33 @@ A continuación se explican los pasos para utilizar y extender los Algoritmos y 
 
 ## Pasos generales para utilizar esta plantilla
     
-1 - Crea tu propio repositorio a partir de la plantilla (botón "Use this template" en GitHub).
+1. Crea tu propio repositorio a partir de la plantilla (botón "Use this template" en GitHub).
 
-2 - Clona el nuevo repositorio en tu computadora.
+2. Clona el nuevo repositorio en tu computadora.
 
-3 - En VSCode, abre la carpeta del proyecto en que trabajarás, por ejemplo, "/TrabajoPractico_1/proyecto_1/". Verás algo como:
+3. En VSCode, abre la carpeta del proyecto en que trabajarás, por ejemplo, "/TrabajoPractico_1/proyecto_1/". Verás algo como:
 ![Árbol de proyecto](img/image.png).
 
-4 - Crea un entorno virtual e instala las dependencias necesarias. Asegúrate de añadir la dependencia de la biblioteca local en el archivo "/TrabajoPractico_1/proyecto_1/deps/requirements.txt", es decir, '-e "../../biblioteca_ayed_fiuner"'. El "-e" indica que la instalación de este módulo se realice en modo editable a fin de poder modificar la biblioteca y que los cambios en ella tengan impacto directo en el proyecto que la utiliza. Los "../../" indican subir dos niveles en el árbol de directorios para encontrar el directorio donde está la biblioteca local.
+    3.1. - Al abrir el proyecto por primera vez, Visual Studio Code mostrará una notificación en la esquina inferior derecha sugiriendo la instalación de las extensiones recomendadas para el espacio de trabajo (`ms-python.python`). Haz clic en **Instalar** (o **Install**).  
+    Si la notificación no aparece automáticamente, puedes encontrarla abriendo el panel de Extensiones en la barra lateral izquierda (`Ctrl + Shift + X` en Windows/Linux o `Cmd + Shift + X` en macOS). En la sección desplegable **Recomendadas** (o **Workspace Recommendations**) figurará la extensión de Python sugerida para su instalación.
+
+<!-- ![Extensión recomendada en VS Code](img/extensiones_recomendadas.png) -->
+
+4. Crea un entorno virtual e instala las dependencias necesarias. Asegúrate de añadir la dependencia de la biblioteca local en el archivo "/TrabajoPractico_1/proyecto_1/deps/requirements.txt", es decir, '-e "../../biblioteca_ayed_fiuner"'. El "-e" indica que la instalación de este módulo se realice en modo editable a fin de poder modificar la biblioteca y que los cambios en ella tengan impacto directo en el proyecto que la utiliza. Los "../../" indican subir dos niveles en el árbol de directorios para encontrar el directorio donde está la biblioteca local.
 
 ```
 pip install -r .\deps\requirements.txt
 ```
 
-5 - Abre el archivo .py en que trabajás, importa los algoritmos y estructuras de la blioteca y utilízalos. La bilblioteca se importa como "import ayedfiuner".
+5. Abre el archivo .py en que trabajás, importa los algoritmos y estructuras de la blioteca y utilízalos. La bilblioteca se importa como "import ayedfiuner".
 
-5.1 - El archivo "/TrabajoPractico_1/proyecto_1/main_ejemplo.py" contiene un ejemplo concreto de cómo realizar esto. Verás dos líneas de código en la parte superior, una para importar un algoritmo de ordenamiento y otra para importar una estructrua de datos.
+    5.1. El archivo "/TrabajoPractico_1/proyecto_1/main_ejemplo.py" contiene un ejemplo concreto de cómo realizar esto. Verás dos líneas de código en la parte superior, una para importar un algoritmo de ordenamiento y otra para importar una estructrua de datos.
 
-6 - Si quieres añadir un nuevo algoritmo, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/" de la biblioteca y añadirlo. Por ejemplo, si deseas implementar el algoritmo de ordenamiento rápido podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/quicksort.py" y dentro implementar el algoritmo "def ordenamiento_rapido(lis)".
+6. Si quieres añadir un nuevo algoritmo, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/" de la biblioteca y añadirlo. Por ejemplo, si deseas implementar el algoritmo de ordenamiento rápido podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/algoritmos/quicksort.py" y dentro implementar el algoritmo "def ordenamiento_rapido(lis)".
 
-7 - Si quieres añadir una nueva estructura de datos, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/" de la biblioteca y añadirla. Por ejemplo, si deseas implementar el TAD montículo podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/monticulo.py" y dentro implementar el TAD "class Monticulo".
+7. Si quieres añadir una nueva estructura de datos, debes ingresar al directorio "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/" de la biblioteca y añadirla. Por ejemplo, si deseas implementar el TAD montículo podrías crear el archivo "/biblioteca_ayed_fiuner/ayedfiuner/estructuras/monticulo.py" y dentro implementar el TAD "class Monticulo".
 
-8 - Una vez que realices las implementaciones de algoritmo y estructruas, estas estarán disponibles a través de las importaciones que toman como raiz "ayedfiuner". Por ejemplo, importar el algoritmo de ordenamiento rápido indicado como ejemplo ser haría con el código "from ayedfiuner.algoritmos.quicksort import ordenamiento_rapido".
+8. Una vez que realices las implementaciones de algoritmo y estructruas, estas estarán disponibles a través de las importaciones que toman como raiz "ayedfiuner". Por ejemplo, importar el algoritmo de ordenamiento rápido indicado como ejemplo ser haría con el código "from ayedfiuner.algoritmos.quicksort import ordenamiento_rapido".
 
 ## Integrantes del grupo:
     - Apellido y Nombre del primer integrante
